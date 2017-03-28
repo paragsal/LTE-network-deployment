@@ -1,0 +1,989 @@
+<?xml version="1.0"?>
+<model schemaversion="1.2">
+	<info>
+		<name>PlanetGeneralModel</name>
+		<version>0.95</version>
+	</info>
+	<parameters>
+		<parameter>
+			<name>AverageHeightofEffectiveAntennaHeightMeters</name>
+			<value type="float">40</value>
+		</parameter>
+		<parameter>
+			<name>CalculationResolutionMeters</name>
+			<value type="float">30</value>
+		</parameter>
+		<parameter>
+			<name>EarthCurvature</name>
+			<value type="float">1.33333</value>
+		</parameter>
+		<parameter>
+			<name>EffectiveAntennaHeightAlgorithm</name>
+			<value type="string">BASE_HEIGHT</value>
+		</parameter>
+		<parameter>
+			<name>ExtClutterHeightNames</name>
+			<value type="listofstrings" />
+		</parameter>
+		<parameter>
+			<name>ExtClutterNames</name>
+			<value type="listofstrings">
+				<value>wash_dc_clt_rs</value>
+			</value>
+		</parameter>
+		<parameter>
+			<name>ExtCustomDataNames</name>
+			<value type="listofstrings" />
+		</parameter>
+		<parameter>
+			<name>ExtElevationNames</name>
+			<value type="listofstrings">
+				<value>wash_dc_elev_rs</value>
+			</value>
+		</parameter>
+		<parameter>
+			<name>ExtPolygonNames</name>
+			<value type="listofstrings" />
+		</parameter>
+		<parameter>
+			<name>FrequencyMHz</name>
+			<value type="float">900</value>
+		</parameter>
+		<parameter>
+			<name>K1FarLOS</name>
+			<value type="float">-12.1</value>
+		</parameter>
+		<parameter>
+			<name>K1NearLOS</name>
+			<value type="float">-10</value>
+		</parameter>
+		<parameter>
+			<name>K2FarLOS</name>
+			<value type="float">-44.9</value>
+		</parameter>
+		<parameter>
+			<name>K2NearLOS</name>
+			<value type="float">-45.6</value>
+		</parameter>
+		<parameter>
+			<name>K3</name>
+			<value type="float">-5.83</value>
+		</parameter>
+		<parameter>
+			<name>K4</name>
+			<value type="float">0.4</value>
+		</parameter>
+		<parameter>
+			<name>K5</name>
+			<value type="float">6.55</value>
+		</parameter>
+		<parameter>
+			<name>K6</name>
+			<value type="float">0</value>
+		</parameter>
+		<parameter>
+			<name>KnifeEdgeMergingDistanceMeters</name>
+			<value type="float">100</value>
+		</parameter>
+		<parameter>
+			<name>MaskingAlgorithm</name>
+			<value type="string">BERG_MASKING_ALGORITHM</value>
+		</parameter>
+		<parameter>
+			<name>NumRadials</name>
+			<value type="int32">65535</value>
+		</parameter>
+		<parameter>
+			<name>OutputResolutionMeters</name>
+			<value type="float">30</value>
+		</parameter>
+		<parameter>
+			<name>PathClutterDistanceMeters</name>
+			<value type="float">1000</value>
+		</parameter>
+		<parameter>
+			<name>PathClutterFunctionCoeff</name>
+			<value type="float">1</value>
+		</parameter>
+		<parameter>
+			<name>PathClutterFunctionType</name>
+			<value type="string">RECTANGULAR</value>
+		</parameter>
+		<parameter>
+			<name>ProfileofEffectiveAntennaHeightAlgorithm</name>
+			<value type="string">OKUMURA</value>
+		</parameter>
+		<parameter>
+			<name>ProfileofEffectiveAntennaHeightAlgorithmEndPointKm</name>
+			<value type="float">15</value>
+		</parameter>
+		<parameter>
+			<name>ProfileofEffectiveAntennaHeightAlgorithmStartPointKm</name>
+			<value type="float">0</value>
+		</parameter>
+		<parameter>
+			<name>RainAttenuationOption</name>
+			<value type="string">NO_RAIN_ATTENUTATION</value>
+		</parameter>
+		<parameter>
+			<name>RainRate</name>
+			<value type="float">0</value>
+		</parameter>
+		<parameter>
+			<name>RollingHillyFactorOptions</name>
+			<value type="string">OKUMURA</value>
+		</parameter>
+		<parameter>
+			<name>RollingHillyFactorOptionsEndPointKm</name>
+			<value type="float">15</value>
+		</parameter>
+		<parameter>
+			<name>RollingHillyFactorOptionsStartPointKm</name>
+			<value type="float">3</value>
+		</parameter>
+		<parameter>
+			<name>RxHeightMeters</name>
+			<value type="float">1.5</value>
+		</parameter>
+		<parameter>
+			<name>SingleClutterClassName</name>
+			<value type="string">Unknown_Clutter_Class</value>
+		</parameter>
+		<parameter>
+			<name>SlopeofEffectiveAntennaHeightAlgorithmDistanceMeters</name>
+			<value type="float">1000</value>
+		</parameter>
+		<parameter>
+			<name>SlopeofEffectiveAntennaHeightAlgorithmMaxHeightMeters</name>
+			<value type="float">200</value>
+		</parameter>
+		<parameter>
+			<name>SlopeofEffectiveAntennaHeightAlgorithmMinHeightMeters</name>
+			<value type="float">1</value>
+		</parameter>
+		<parameter>
+			<name>TroposcatterClimateType</name>
+			<value type="string">EQUATORIAL</value>
+		</parameter>
+		<parameter>
+			<name>TroposcatterConfidenceLevel</name>
+			<value type="string">FIFTY</value>
+		</parameter>
+		<parameter>
+			<name>TwoPieceModelDistanceMeters</name>
+			<value type="float">1000</value>
+		</parameter>
+		<parameter>
+			<name>TxHeightMeters</name>
+			<value type="float">-1</value>
+		</parameter>
+		<parameter>
+			<name>UseBaseStationEffectiveHeightFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseBuildingDensityFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseClutterRxHeight</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseInclinationFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseKnifeEdgeFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseMobileAntennaHeightFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseMultipleKnifeEdgeFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseOneOrTwoPieceModel</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseOpenAreaFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UsePathClutter</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseRollingHillyFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseRollingHillyFineFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseSeaLakeEdgeFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseSingleClutterClass</name>
+			<value type="boolean">True</value>
+		</parameter>
+		<parameter>
+			<name>UseSuburbanAreaFactor</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseTroposcatterModel</name>
+			<value type="boolean">False</value>
+		</parameter>
+	</parameters>
+	<clutters>
+		<defaultclutter>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</defaultclutter>
+		<clutter>
+			<name>Dense_Urban</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Forest,coniferous</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Forest,deciduous</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Forest,mixed</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Fresh_Water</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Industrial</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Mixed_Surburban</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Open_Land,dry</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Open_Land,wet</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Open_Marsh</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Open_Surburban</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Parkland</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Salt_Water</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Scrub,coniferous</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Scrub,deciduous</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Shaded_Surburban</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Urban</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Urban_Core</name>
+			<parameter>
+				<name>ClutterBuildingDensity</name>
+				<value type="float">30</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterOkumuraClass</name>
+				<value type="string">Undefined</value>
+			</parameter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationDistanceMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseForInclinationAngle</name>
+				<value type="string">False</value>
+			</parameter>
+			<parameter>
+				<name>ClutterUseInDiffractionCalculation</name>
+				<value type="string">True</value>
+			</parameter>
+			<parameter>
+				<name>PathClutterFunctionValue</name>
+				<value type="float">0</value>
+			</parameter>
+		</clutter>
+	</clutters>
+	<custom><![CDATA[]]></custom>
+	<signature><![CDATA[]]></signature>
+</model>

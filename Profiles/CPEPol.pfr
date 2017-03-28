@@ -1,0 +1,14 @@
+[Info]
+Version=1.0
+Classes=2
+Interval=Non-Linear
+[Value #1]
+Lower=0
+Upper=0 
+Value=Horizontal
+Colour=1132767
+[Value #2]
+Lower=0
+Upper=0
+Value=Vertical
+Colour=1565535

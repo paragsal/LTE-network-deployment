@@ -1,0 +1,7 @@
+Local:.
+2.0
+4
+Field Strength:0:-90:0:255:255:FieldStr.pfc
+Path Loss:0:100:0:255:0:Pathloss.pfc
+Best Server Field Strength:0:-90:0:0:255:FieldStr.pfc
+Second Best Field Strength:0:-120:255:255:0:FieldStr.pfc

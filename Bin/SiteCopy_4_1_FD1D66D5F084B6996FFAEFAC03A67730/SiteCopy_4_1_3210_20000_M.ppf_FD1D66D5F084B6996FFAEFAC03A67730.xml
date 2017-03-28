@@ -1,0 +1,50 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Marconi.Wnp.RFServices.Predictions.PredictionStorage.PredictionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Site" type="xs:string" minOccurs="0" />
+                <xs:element name="SiteUid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Sector" type="xs:string" minOccurs="0" />
+                <xs:element name="SectorUid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Repeater" type="xs:string" minOccurs="0" />
+                <xs:element name="RepeaterUid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Resolution" type="xs:int" minOccurs="0" />
+                <xs:element name="Radius" type="xs:int" minOccurs="0" />
+                <xs:element name="RxHeightInt" type="xs:int" minOccurs="0" />
+                <xs:element name="Top" type="xs:int" minOccurs="0" />
+                <xs:element name="Left" type="xs:int" minOccurs="0" />
+                <xs:element name="Width" type="xs:int" minOccurs="0" />
+                <xs:element name="Height" type="xs:int" minOccurs="0" />
+                <xs:element name="FileName" type="xs:string" minOccurs="0" />
+                <xs:element name="Hash" type="xs:string" minOccurs="0" />
+                <xs:element name="FileType" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Marconi.Wnp.RFServices.Predictions.PredictionStorage.PredictionFile>
+    <Site>SiteCopy_4</Site>
+    <SiteUid>35606801050725084182844285135</SiteUid>
+    <Sector>1</Sector>
+    <SectorUid>19940349410949724443069923869</SectorUid>
+    <Repeater />
+    <RepeaterUid>0</RepeaterUid>
+    <Resolution>3210</Resolution>
+    <Radius>20000</Radius>
+    <RxHeightInt>-100000</RxHeightInt>
+    <Top>1534020473</Top>
+    <Left>861725494</Left>
+    <Width>4298190</Width>
+    <Height>4282140</Height>
+    <FileName>SiteCopy_4_1_3210_20000_M.ppf</FileName>
+    <Hash>FD1D66D5F084B6996FFAEFAC03A67730</Hash>
+    <FileType>ppf</FileType>
+  </Marconi.Wnp.RFServices.Predictions.PredictionStorage.PredictionFile>
+</NewDataSet>

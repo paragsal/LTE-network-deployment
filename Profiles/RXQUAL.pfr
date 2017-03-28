@@ -1,0 +1,44 @@
+[Info]
+Version=1.0
+Classes=8
+Interval=Non-Linear
+[Value #1]
+Lower=0
+Upper=0
+Value=RXQUAL 0
+Colour=16777215
+[Value #2]
+Lower=0
+Upper=0
+Value=RXQUAL 1
+Colour=16744576
+[Value #3]
+Lower=0
+Upper=0
+Value=RXQUAL 2
+Colour=16744576
+[Value #4]
+Lower=0
+Upper=0
+Value=RXQUAL 3
+Colour=65280
+[Value #5]
+Lower=0
+Upper=0
+Value=RXQUAL 4
+Colour=65280
+[Value #6]
+Lower=0
+Upper=0
+Value=RXQUAL 5
+Colour=255
+[Value #7]
+Lower=0
+Upper=0
+Value=RXQUAL 6
+Colour=8421504
+[Value #8]
+Lower=0
+Upper=0
+Value=RXQUAL 7
+Colour=0

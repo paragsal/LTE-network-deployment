@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AntennaAlgorithm xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="AntennaAlgorithms">
+  <AntennaAlgorithmVersion>1.30</AntennaAlgorithmVersion>
+  <DownlinkSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>SmartAntennaDiversity</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>true</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x3" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0033_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x3" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0033_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0033_x3" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0033_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x3" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0033_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x3" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable1" msdata:rowOrder="0">
+                  <Clutter_x0020_Type>Commercial</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable2" msdata:rowOrder="1">
+                  <Clutter_x0020_Type>Industrial</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable3" msdata:rowOrder="2">
+                  <Clutter_x0020_Type>Forest</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable4" msdata:rowOrder="3">
+                  <Clutter_x0020_Type>Core Urban</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable5" msdata:rowOrder="4">
+                  <Clutter_x0020_Type>Dense Urban</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable6" msdata:rowOrder="5">
+                  <Clutter_x0020_Type>Urban - Commercial-Residential</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable7" msdata:rowOrder="6">
+                  <Clutter_x0020_Type>Utility Stations</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable8" msdata:rowOrder="7">
+                  <Clutter_x0020_Type>Suburban Residential - few trees</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable9" msdata:rowOrder="8">
+                  <Clutter_x0020_Type>Suburban Residential - with tree</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable10" msdata:rowOrder="9">
+                  <Clutter_x0020_Type>Airport</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable11" msdata:rowOrder="10">
+                  <Clutter_x0020_Type>Open - asphalt-concrete</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable12" msdata:rowOrder="11">
+                  <Clutter_x0020_Type>Open - non-asphalt-non-concrete</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable13" msdata:rowOrder="12">
+                  <Clutter_x0020_Type>Barren Surface</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable14" msdata:rowOrder="13">
+                  <Clutter_x0020_Type>Grass-Agriculture</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable15" msdata:rowOrder="14">
+                  <Clutter_x0020_Type>Rangeland</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable16" msdata:rowOrder="15">
+                  <Clutter_x0020_Type>Wetland</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+                <DiversityCluttCorrDataTable diffgr:id="DiversityCluttCorrDataTable17" msdata:rowOrder="16">
+                  <Clutter_x0020_Type>Water</Clutter_x0020_Type>
+                  <_x0031_x2>100</_x0031_x2>
+                  <_x0032_x1>100</_x0032_x1>
+                  <_x0032_x2>100</_x0032_x2>
+                  <_x0031_x3>100</_x0031_x3>
+                  <_x0033_x1>100</_x0033_x1>
+                  <_x0032_x3>100</_x0032_x3>
+                  <_x0033_x2>100</_x0033_x2>
+                  <_x0033_x3>100</_x0033_x3>
+                  <_x0031_x4>100</_x0031_x4>
+                  <_x0034_x1>100</_x0034_x1>
+                  <_x0032_x4>100</_x0032_x4>
+                  <_x0034_x2>100</_x0034_x2>
+                  <_x0033_x4>100</_x0033_x4>
+                  <_x0034_x3>100</_x0034_x3>
+                  <_x0034_x4>100</_x0034_x4>
+                  <_x0031_x8>100</_x0031_x8>
+                  <_x0038_x1>100</_x0038_x1>
+                  <_x0032_x8>100</_x0032_x8>
+                  <_x0038_x2>100</_x0038_x2>
+                  <_x0033_x8>100</_x0033_x8>
+                  <_x0038_x3>100</_x0038_x3>
+                  <_x0034_x8>100</_x0034_x8>
+                  <_x0038_x4>100</_x0038_x4>
+                  <_x0038_x8>100</_x0038_x8>
+                </DiversityCluttCorrDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x3" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0033_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x3" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0033_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0033_x3" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0033_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x3" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0033_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x3" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x3>4.77</_x0031_x3>
+                  <_x0033_x1>4.77</_x0033_x1>
+                  <_x0032_x3>7.78</_x0032_x3>
+                  <_x0033_x2>7.78</_x0033_x2>
+                  <_x0033_x3>9.54</_x0033_x3>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0033_x4>10.79</_x0033_x4>
+                  <_x0034_x3>10.79</_x0034_x3>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0033_x8>13.8</_x0033_x8>
+                  <_x0038_x3>13.8</_x0038_x3>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x3>4.77</_x0031_x3>
+                  <_x0033_x1>4.77</_x0033_x1>
+                  <_x0032_x3>7.78</_x0032_x3>
+                  <_x0033_x2>7.78</_x0033_x2>
+                  <_x0033_x3>9.54</_x0033_x3>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0033_x4>10.79</_x0033_x4>
+                  <_x0034_x3>10.79</_x0034_x3>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0033_x8>13.8</_x0033_x8>
+                  <_x0038_x3>13.8</_x0038_x3>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+                <DocumentElement xmlns="">
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable1" msdata:rowOrder="0">
+                    <Clutter_x0020_Type>Commercial</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable2" msdata:rowOrder="1">
+                    <Clutter_x0020_Type>Industrial</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable3" msdata:rowOrder="2">
+                    <Clutter_x0020_Type>Forest</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable4" msdata:rowOrder="3">
+                    <Clutter_x0020_Type>Core Urban</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable5" msdata:rowOrder="4">
+                    <Clutter_x0020_Type>Dense Urban</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable6" msdata:rowOrder="5">
+                    <Clutter_x0020_Type>Urban - Commercial-Residential</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable7" msdata:rowOrder="6">
+                    <Clutter_x0020_Type>Utility Stations</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable8" msdata:rowOrder="7">
+                    <Clutter_x0020_Type>Suburban Residential - few trees</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable9" msdata:rowOrder="8">
+                    <Clutter_x0020_Type>Suburban Residential - with tree</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable10" msdata:rowOrder="9">
+                    <Clutter_x0020_Type>Airport</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable11" msdata:rowOrder="10">
+                    <Clutter_x0020_Type>Open - asphalt-concrete</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable12" msdata:rowOrder="11">
+                    <Clutter_x0020_Type>Open - non-asphalt-non-concrete</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable13" msdata:rowOrder="12">
+                    <Clutter_x0020_Type>Barren Surface</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable14" msdata:rowOrder="13">
+                    <Clutter_x0020_Type>Grass-Agriculture</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable15" msdata:rowOrder="14">
+                    <Clutter_x0020_Type>Rangeland</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable16" msdata:rowOrder="15">
+                    <Clutter_x0020_Type>Wetland</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                  <ClutterCorrectionDataTable diffgr:id="ClutterCorrectionDataTable17" msdata:rowOrder="16">
+                    <Clutter_x0020_Type>Water</Clutter_x0020_Type>
+                    <Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>100</Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_>
+                    <Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>100</Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_>
+                  </ClutterCorrectionDataTable>
+                </DocumentElement>
+              </diffgr:diffgram>
+            </ClutterCorrection>
+            <ClutterTableInitialized>true</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+  </DownlinkSettings>
+  <Name>Smart Antenna + Diversity</Name>
+  <Standard>WiFi</Standard>
+  <UplinkCollaborativeMimo>false</UplinkCollaborativeMimo>
+  <UplinkSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+</AntennaAlgorithm>

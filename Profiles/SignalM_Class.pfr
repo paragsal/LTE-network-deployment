@@ -1,0 +1,34 @@
+[Info]
+Version=1.0
+Classes=6
+Interval=Non-Linear
+[Value #1]
+Lower=0
+Upper=0.01
+Value=Below Level
+Colour=32767
+[Value #2]
+Lower=0.01
+Upper=5
+Value=Fringe Level
+Colour=16711935
+[Value #3]
+Lower=5
+Upper=20
+Value=Mobile Level
+Colour=12615680
+[Value #4]
+Lower=20
+Upper=60
+Value=Hand Portable Level
+Colour=16776960
+[Value #5]
+Lower=60
+Upper=90
+Value=In Building Level
+Colour=4259584
+[Value #6]
+Lower=90
+Upper=100
+Value=Above Range
+Colour=16711680

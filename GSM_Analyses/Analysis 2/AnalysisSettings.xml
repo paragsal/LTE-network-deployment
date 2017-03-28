@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<AnalysisSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="GSMAnalysisSettings">
+  <ActiveHeight>M</ActiveHeight>
+  <Bound>
+    <X>0</X>
+    <Y>0</Y>
+    <Height>0</Height>
+    <Width>0</Width>
+    <Location>
+      <X>0</X>
+      <Y>0</Y>
+    </Location>
+  </Bound>
+  <AnalysisAreaTypeSelection>Predictions</AnalysisAreaTypeSelection>
+  <AnalysisGridPath xsi:nil="true" />
+  <AreaGridName xsi:nil="true" />
+  <AnalysisAreaBinSizeInMeters>30</AnalysisAreaBinSizeInMeters>
+  <ModeAnalysisSettings xsi:type="RapidAnalysisSettings">
+    <CoverageProbability>85</CoverageProbability>
+    <EquipmentType xsi:nil="true" />
+    <EnvironmentType>Outdoor</EnvironmentType>
+  </ModeAnalysisSettings>
+  <LogAppenderType>File</LogAppenderType>
+  <LogMode>Domain</LogMode>
+  <PointXToTrace>-1</PointXToTrace>
+  <PointYToTrace>-1</PointYToTrace>
+  <AnalysisHeightsCms>
+    <string>M</string>
+  </AnalysisHeightsCms>
+  <ChosenService />
+  <NthBest>false</NthBest>
+  <NthBestServer>2</NthBestServer>
+  <RxThresholdEnabled>true</RxThresholdEnabled>
+  <UseSectorTimingNetworkThreshold>false</UseSectorTimingNetworkThreshold>
+  <ThresholdUsage>UseRxSensitivity</ThresholdUsage>
+  <RxThreshold_dBm>0</RxThreshold_dBm>
+  <AllServices>true</AllServices>
+  <OneService>false</OneService>
+  <RssiThreshold>-90</RssiThreshold>
+  <Deviation>9</Deviation>
+  <CsAvailabilityCiLayer>TotalCI</CsAvailabilityCiLayer>
+  <IgnoreInterferers>true</IgnoreInterferers>
+  <IgnoreInterferersRule>BelowNoiseFloor</IgnoreInterferersRule>
+  <RxThreshold>-130</RxThreshold>
+  <IgnoreSameSiteInterferers>false</IgnoreSameSiteInterferers>
+  <UseOptimizedFHAlgorithm>false</UseOptimizedFHAlgorithm>
+  <InterferenceAllCarriers>true</InterferenceAllCarriers>
+  <InterferenceControlCarriers>false</InterferenceControlCarriers>
+  <InterferenceSpecificCarriers>false</InterferenceSpecificCarriers>
+  <InterferenceSpecificCarrierType>false</InterferenceSpecificCarrierType>
+  <InterferenceGSMAllHoppingNonhoppingCarriers>true</InterferenceGSMAllHoppingNonhoppingCarriers>
+  <InterferenceGSMHoppingCarriers>false</InterferenceGSMHoppingCarriers>
+  <InterferenceGSMAllNonHoppingCarriers>false</InterferenceGSMAllNonHoppingCarriers>
+  <InterferenceBCCHCarriers>false</InterferenceBCCHCarriers>
+  <InterferenceGSMSpecificCarrier>false</InterferenceGSMSpecificCarrier>
+  <InterferenceGSMSpecificCarrierType>false</InterferenceGSMSpecificCarrierType>
+  <InterferenceTechEntries>
+    <TechEntry>
+      <Selected>true</Selected>
+      <Technology>GSM</Technology>
+    </TechEntry>
+  </InterferenceTechEntries>
+  <TrafficMapOption>false</TrafficMapOption>
+  <UserDefinedErlangsOption>true</UserDefinedErlangsOption>
+  <UserDefinedOfferedErlangsOption>false</UserDefinedOfferedErlangsOption>
+  <UserDefinedPercentageOption>false</UserDefinedPercentageOption>
+  <NoConversion>true</NoConversion>
+  <ErlangCConversion>false</ErlangCConversion>
+  <ErlangBConversion>false</ErlangBConversion>
+  <PoissonConversion>false</PoissonConversion>
+  <TrafficMapIDs>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </TrafficMapIDs>
+  <UpdateTrafficLoading>false</UpdateTrafficLoading>
+  <UpdateTrafficLoadingOffered>false</UpdateTrafficLoadingOffered>
+  <AnalysisAreaOption>1</AnalysisAreaOption>
+  <AnalysisAreaGrid />
+  <XMinAnalysisArea>0</XMinAnalysisArea>
+  <YMinAnalysisArea>0</YMinAnalysisArea>
+  <XMaxAnalysisArea>0</XMaxAnalysisArea>
+  <YMaxAnalysisArea>0</YMaxAnalysisArea>
+  <UserDefinedResolutionMeters>0</UserDefinedResolutionMeters>
+  <UseOptimalResolution>true</UseOptimalResolution>
+  <UseBTSSensitivity>true</UseBTSSensitivity>
+  <UseTargetReceiveLevel>false</UseTargetReceiveLevel>
+  <SkipPredictionGeneration>false</SkipPredictionGeneration>
+  <ServiceList>
+    <anyType xsi:type="xsd:string">WWW Browsing</anyType>
+  </ServiceList>
+  <TechList>
+    <anyType xsi:type="xsd:string">GSM</anyType>
+  </TechList>
+  <BERSettings>
+    <RelationshipCurve>BER_TU3_900MHz</RelationshipCurve>
+    <CiLayer>TotalCIA</CiLayer>
+  </BERSettings>
+  <FERSettings xsi:type="GsmFerQualityEstimator">
+    <RelationshipCurve>FER_12freq_TU3_900MHz</RelationshipCurve>
+    <CiLayer>TotalCIA</CiLayer>
+    <FerVsCiCurve>false</FerVsCiCurve>
+    <TUCurveType>TU3</TUCurveType>
+  </FERSettings>
+  <SQESettings>
+    <CiLayer>TotalCIA</CiLayer>
+  </SQESettings>
+</AnalysisSettings>

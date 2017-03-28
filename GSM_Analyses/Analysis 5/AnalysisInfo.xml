@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnalysisInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="Analysis">
+  <CellularLayersInfo xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+  <CompositeInfo z:Id="i2">
+    <DisplayName>Analysis 5</DisplayName>
+    <IsInternal>false</IsInternal>
+    <Name>Analysis 5</Name>
+    <Parent i:nil="true" />
+    <ComponentList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:anyType z:Id="i3" i:type="Leaf">
+        <DisplayName>Best Serving Sector</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>BestServingSector</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i4" i:type="LeafLayer">
+            <DisplayName>Best Serving Sector</DisplayName>
+            <Name>BestServingSector</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i3" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i5" i:type="Leaf">
+        <DisplayName>Best Server Signal Strength</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>BestServerSS</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i6" i:type="LeafLayer">
+            <DisplayName>Best Server Signal Strength</DisplayName>
+            <Name>BestServerSS</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i5" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i7" i:type="Leaf">
+        <DisplayName>Best Server Classes</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>BestServerClasses</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i8" i:type="LeafLayer">
+            <DisplayName>Best Server Classes</DisplayName>
+            <Name>BestServerClasses</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i7" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i9" i:type="Leaf">
+        <DisplayName>Best Server Traffic</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>BestServingTraffic</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Text</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i10" i:type="LeafLayer">
+            <DisplayName>Best Server Traffic</DisplayName>
+            <Name>BestServingTraffic</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i9" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i11" i:type="Leaf">
+        <DisplayName>Required Mobile Power</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>RequiredMobilePower</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i12" i:type="LeafLayer">
+            <DisplayName>Required Mobile Power</DisplayName>
+            <Name>RequiredMobilePower</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i11" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i13" i:type="Leaf">
+        <DisplayName>Total C/I</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>TotalCToI</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i14" i:type="LeafLayer">
+            <DisplayName>Total C/I</DisplayName>
+            <Name>TotalCToI</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i13" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i15" i:type="Leaf">
+        <DisplayName>Total C/A</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>TotalCToA</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i16" i:type="LeafLayer">
+            <DisplayName>Total C/A</DisplayName>
+            <Name>TotalCToA</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i15" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i17" i:type="Leaf">
+        <DisplayName>Total C/(I + A)</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>TotalCToIA</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i18" i:type="LeafLayer">
+            <DisplayName>Total C/(I + A)</DisplayName>
+            <Name>TotalCToIA</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i17" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i19" i:type="Leaf">
+        <DisplayName>Carrier Averaged C/I</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>AverageCToI</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i20" i:type="LeafLayer">
+            <DisplayName>Carrier Averaged C/I</DisplayName>
+            <Name>AverageCToI</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i19" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i21" i:type="Leaf">
+        <DisplayName>Carrier Averaged C/A</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>AverageCToA</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i22" i:type="LeafLayer">
+            <DisplayName>Carrier Averaged C/A</DisplayName>
+            <Name>AverageCToA</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i21" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i23" i:type="Leaf">
+        <DisplayName>Carrier Averaged C/(I + A)</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>AverageCToIA</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i24" i:type="LeafLayer">
+            <DisplayName>Carrier Averaged C/(I + A)</DisplayName>
+            <Name>AverageCToIA</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i23" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i25" i:type="Leaf">
+        <DisplayName>Number of co-channel interferers</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>NumColInterferers</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i26" i:type="LeafLayer">
+            <DisplayName>Number of co-channel interferers</DisplayName>
+            <Name>NumColInterferers</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i25" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i27" i:type="Leaf">
+        <DisplayName>Number of adjacent channel interferers</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>NumAdjInterferers</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i28" i:type="LeafLayer">
+            <DisplayName>Number of adjacent channel interferers</DisplayName>
+            <Name>NumAdjInterferers</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i27" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i29" i:type="Leaf">
+        <DisplayName>Worst carrier</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>WorstCarrier</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i30" i:type="LeafLayer">
+            <DisplayName>Worst carrier</DisplayName>
+            <Name>WorstCarrier</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i29" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i31" i:type="Leaf">
+        <DisplayName>Best carrier</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>BestCarrier</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i32" i:type="LeafLayer">
+            <DisplayName>Best carrier</DisplayName>
+            <Name>BestCarrier</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i31" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i33" i:type="Leaf">
+        <DisplayName>Worst offending co-channel sector</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>WorstCoOffender</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i34" i:type="LeafLayer">
+            <DisplayName>Worst offending co-channel sector</DisplayName>
+            <Name>WorstCoOffender</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i33" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i35" i:type="Leaf">
+        <DisplayName>Worst offending adjacent channel sector</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>WorstAdjOffender</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i36" i:type="LeafLayer">
+            <DisplayName>Worst offending adjacent channel sector</DisplayName>
+            <Name>WorstAdjOffender</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i35" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i37" i:type="Leaf">
+        <DisplayName>Worst Offender C/I</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>WorstOffCI</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i38" i:type="LeafLayer">
+            <DisplayName>Worst Offender C/I</DisplayName>
+            <Name>WorstOffCI</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i37" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i39" i:type="Leaf">
+        <DisplayName>Worst Offender C/A</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>WorstOffCA</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i40" i:type="LeafLayer">
+            <DisplayName>Worst Offender C/A</DisplayName>
+            <Name>WorstOffCA</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i39" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i41" i:type="Leaf">
+        <DisplayName>Total C/(I+A+N)</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>TotalCToIAN</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i42" i:type="LeafLayer">
+            <DisplayName>Total C/(I+A+N)</DisplayName>
+            <Name>TotalCToIAN</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i41" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i43" i:type="Leaf">
+        <DisplayName>Carrier Averaged C/(I+A+N)</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>AverageCToIAN</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i44" i:type="LeafLayer">
+            <DisplayName>Carrier Averaged C/(I+A+N)</DisplayName>
+            <Name>AverageCToIAN</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i43" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i45" i:type="Leaf">
+        <DisplayName>Coverage probability</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>CoverageProb</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i46" i:type="LeafLayer">
+            <DisplayName>Coverage probability</DisplayName>
+            <Name>CoverageProb</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i45" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i47" i:type="Leaf">
+        <DisplayName>BER</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>BER</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i48" i:type="LeafLayer">
+            <DisplayName>BER</DisplayName>
+            <Name>BER</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i47" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i49" i:type="Leaf">
+        <DisplayName>FER</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>FER</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Numerical</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i50" i:type="LeafLayer">
+            <DisplayName>FER</DisplayName>
+            <Name>FER</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i49" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i51" i:type="Leaf">
+        <DisplayName>RxQUAL</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>RxQUAL</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i52" i:type="LeafLayer">
+            <DisplayName>RxQUAL</DisplayName>
+            <Name>RxQUAL</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i51" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i53" i:type="Leaf">
+        <DisplayName>Composite service coverage</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>CompositeServiceCoverage</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i54" i:type="LeafLayer">
+            <DisplayName>Composite service coverage</DisplayName>
+            <Name>CompositeServiceCoverage</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i53" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i55" i:type="Leaf">
+        <DisplayName>Coverage per service</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>ServiceCoverage</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i56" i:type="LeafLayer">
+            <DisplayName>Coverage per service</DisplayName>
+            <Name>ServiceCoverage</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i55" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i57" i:type="Leaf">
+        <DisplayName>Coding scheme availability</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>CSAvailability</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i58" i:type="LeafLayer">
+            <DisplayName>Coding scheme availability</DisplayName>
+            <Name>CSAvailability</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i57" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i59" i:type="Leaf">
+        <DisplayName>Number of servers</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>NumServers</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i60" i:type="LeafLayer">
+            <DisplayName>Number of servers</DisplayName>
+            <Name>NumServers</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i59" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="i61" i:type="Leaf">
+        <DisplayName>Best Serving Sector Cellular Layer</DisplayName>
+        <IsInternal>false</IsInternal>
+        <Name>BestServingSectorCellularLayer</Name>
+        <Parent z:Ref="i2" />
+        <CalculationTypeName></CalculationTypeName>
+        <IsSelected>true</IsSelected>
+        <LayerType>Classified</LayerType>
+        <LeafLayers>
+          <d3p1:anyType z:Id="i62" i:type="LeafLayer">
+            <DisplayName>Best Serving Sector Cellular Layer</DisplayName>
+            <Name>BestServingSectorCellularLayer</Name>
+            <NthLayer>0</NthLayer>
+            <Parent z:Ref="i61" />
+          </d3p1:anyType>
+        </LeafLayers>
+      </d3p1:anyType>
+    </ComponentList>
+  </CompositeInfo>
+  <Description></Description>
+  <Group>non</Group>
+  <IsGenerated>false</IsGenerated>
+  <Parent i:nil="true" />
+  <SectorTable>non</SectorTable>
+  <SelectionTable>non</SelectionTable>
+  <TheAnalysisMode>RapidPilotPlanning</TheAnalysisMode>
+  <TheAnalysisType>GSM</TheAnalysisType>
+  <Version>1.0</Version>
+</AnalysisInfo>

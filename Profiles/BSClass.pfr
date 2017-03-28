@@ -1,0 +1,34 @@
+[Info]
+Version=1.0
+Classes=6
+Interval=Non-Linear
+[Value #1]
+Lower=-100
+Upper=-90
+Value=-100 to -90
+Colour=255
+[Value #2]
+Lower=-90
+Upper=-80
+Value=-90 to -80
+Colour=32767
+[Value #3]
+Lower=-80
+Upper=-70
+Value=-80 to -70
+Colour=65535
+[Value #4]
+Lower=-70
+Upper=-60
+Value=-70 to -60
+Colour=16776960
+[Value #5]
+Lower=-60
+Upper=-50
+Value=-60 to -50
+Colour=16711680
+[Value #6]
+Lower=-50
+Upper=0
+Value=-50 to 0
+Colour=16650130

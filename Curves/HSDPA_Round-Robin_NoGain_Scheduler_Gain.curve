@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphLine xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://mentum.com/planetservice/v1">
+  <Version>1</Version>
+  <XUnits>None</XUnits>
+  <YUnits>Percent</YUnits>
+  <XAxisTitle>Number of Subscribers</XAxisTitle>
+  <YAxisTitle>Scheduler Gain</YAxisTitle>
+  <Points>
+    <PointOfdouble>
+      <X>1</X>
+      <Y>100</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>2</X>
+      <Y>100</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>4</X>
+      <Y>100</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>6</X>
+      <Y>100</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>10</X>
+      <Y>100</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>12</X>
+      <Y>100</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>14</X>
+      <Y>100</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>16.020000000000003</X>
+      <Y>100</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>59</X>
+      <Y>100</Y>
+    </PointOfdouble>
+  </Points>
+</GraphLine>

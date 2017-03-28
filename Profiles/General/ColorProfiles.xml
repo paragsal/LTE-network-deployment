@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorProfileCategories xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/RFAccessLayer.Accessors.ColorProfiles">
+	<ColorProfileCategoriesList>
+		<ColorProfileCategory>
+			<Name>Common</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Path Loss</Name>
+					<FileName>Pathloss.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Signal Strength</Name>
+					<FileName>SignalStrength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Survey Measurement</Name>
+					<FileName>SignalStrength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Survey Delta</Name>
+					<FileName>SignalStrength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Delta (Signal Strength)</Name>
+					<FileName>Delta.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Delta (CINR)</Name>
+					<FileName>Delta.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>HetNet</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Data Rate</Name>
+					<FileName>HetNet Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Downlink Maximum Achievable Data Rate</Name>
+					<FileName>HetNet Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Data Rate</Name>
+					<FileName>HetNet Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Uplink Maximum Achievable Data Rate</Name>
+					<FileName>HetNet Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>WiMAX</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Server Preamble Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Best Server Preamble Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Preamble C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Preamble Coverage Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MAP C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MAP Coverage Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Overall Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Overall Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink C/I</Name>
+					<FileName>WiMAX CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Spectral Efficiency</Name>
+					<FileName>WiMAX Maximum Spectral Efficiency.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Overall Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Overall Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/I</Name>
+					<FileName>WiMAX CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Spectral Efficiency</Name>
+					<FileName>WiMAX Maximum Spectral Efficiency.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>WiMAX MIMO A Gain</Name>
+					<FileName>WiMAX MIMO A Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>WiMAX MIMO B Gain</Name>
+					<FileName>WiMAX MIMO B Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>PreQual</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best C/(N+I)- Best Server MAP C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best C/(N+I)- &lt;Nth&gt; Best Server MAP C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Ec- Best Server Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Ec- &lt;Nth&gt; Best Server Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>LTE TDD</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Best Server Reference Signal Strength</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Server Reference Signal Strength</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>RSRP</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total RSRP</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>RSSI</Name>
+					<FileName>RSSI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>RSRQ</Name>
+					<FileName>LTE RSRQ.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Synchronization Signal Strength</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Synchronization Signal C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Geometry Factor</Name>
+					<FileName>LTE Geometry Factor.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reference C/I</Name>
+					<FileName>LTE CIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reference C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Broadcast C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reference Coverage Probability</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>PDCCH C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>PDSCH C/I</Name>
+					<FileName>LTE CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>PDSCH C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Diversity Gain</Name>
+					<FileName>Diversity Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Spatial Multiplexing Gain</Name>
+					<FileName>Spatial Multiplexing Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Aggregated Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Aggregated Average Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Spectral Efficiency</Name>
+					<FileName>LTE Maximum Spectral Efficiency.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Margin</Name>
+					<FileName>LTE Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Average Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Hard Handover Gain</Name>
+					<FileName>Hard Handover Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink FSS Gain</Name>
+					<FileName>LTE FSS Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Aggregated Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Aggregated Average Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/I</Name>
+					<FileName>LTE CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Coverage</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Spectral Efficiency</Name>
+					<FileName>LTE Maximum Spectral Efficiency.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Margin</Name>
+					<FileName>LTE Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Average Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Margin</Name>
+					<FileName>LTE Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Probability</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Probability</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Hard Handover Gain</Name>
+					<FileName>Hard Handover Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink FSS Gain</Name>
+					<FileName>LTE FSS Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Transmit Power</Name>
+					<FileName>LTE UL_Tx_Power.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Time Arrival</Name>
+					<FileName>LTE MBSFN Time Arrival.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN &lt;Nth&gt; Best Server Time Differential</Name>
+					<FileName>LTE MBSFN Nth Best Server Time Differential.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Total Signal Strength</Name>
+					<FileName>LTE MBSFN Signal Strength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Total Interference</Name>
+					<FileName>LTE MBSFN Signal Strength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN RMS Delay Spread</Name>
+					<FileName>LTE MBSFN RMS Delay Spread.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>LTE FDD</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Best Server Reference Signal Strength</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Server Reference Signal Strength</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>RSRP</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total RSRP</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>RSSI</Name>
+					<FileName>RSSI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>RSRQ</Name>
+					<FileName>LTE RSRQ.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Synchronization Signal Strength</Name>
+					<FileName>LTE Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Synchronization Signal C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Geometry Factor</Name>
+					<FileName>LTE Geometry Factor.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reference C/I</Name>
+					<FileName>LTE CIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reference C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Broadcast C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reference Coverage Probability</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>PDCCH C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>PDSCH C/I</Name>
+					<FileName>LTE CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>PDSCH C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Diversity Gain</Name>
+					<FileName>Diversity Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Spatial Multiplexing Gain</Name>
+					<FileName>Spatial Multiplexing Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Aggregated Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Aggregated Average Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Spectral Efficiency</Name>
+					<FileName>LTE Maximum Spectral Efficiency.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Margin</Name>
+					<FileName>LTE Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Average Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Hard Handover Gain</Name>
+					<FileName>Hard Handover Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink FSS Gain</Name>
+					<FileName>LTE FSS Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Aggregated Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Aggregated Average Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/I</Name>
+					<FileName>LTE CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Coverage</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Spectral Efficiency</Name>
+					<FileName>LTE Maximum Spectral Efficiency.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Margin</Name>
+					<FileName>LTE Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Average Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Margin</Name>
+					<FileName>LTE Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Probability</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Probability</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Hard Handover Gain</Name>
+					<FileName>Hard Handover Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink FSS Gain</Name>
+					<FileName>LTE FSS Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Transmit Power</Name>
+					<FileName>LTE UL_Tx_Power.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Time Arrival</Name>
+					<FileName>LTE MBSFN Time Arrival.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN &lt;Nth&gt; Best Server Time Differential</Name>
+					<FileName>LTE MBSFN Nth Best Server Time Differential.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Total Signal Strength</Name>
+					<FileName>LTE MBSFN Signal Strength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Total Interference</Name>
+					<FileName>LTE MBSFN Signal Strength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN C/(N+I)</Name>
+					<FileName>LTE CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN RMS Delay Spread</Name>
+					<FileName>LTE MBSFN RMS Delay Spread.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Maximum Achievable Data Rate</Name>
+					<FileName>LTE Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MBSFN Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>LTE Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>WiFi</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>WiFi Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Best Server Signal Strength</Name>
+					<FileName>WiFi Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Expected Downlink Maximum Data Rate</Name>
+					<FileName>WiFi Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Expected Downlink Average Data Rate</Name>
+					<FileName>WiFi Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Expected Uplink Maximum Data Rate</Name>
+					<FileName>WiFi Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Expected Uplink Average Data Rate</Name>
+					<FileName>WiFi Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink C/(N+I)</Name>
+					<FileName>WiFi CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink C/I</Name>
+					<FileName>WiFi CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>WiFi Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Margin</Name>
+					<FileName>WiFi Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Diversity Gain</Name>
+					<FileName>WiFi Diversity Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink MIMO Gain</Name>
+					<FileName>WiFi MIMO Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Max Data Rate</Name>
+					<FileName>WiFi Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Average Data Rate</Name>
+					<FileName>WiFi Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/(N+I)</Name>
+					<FileName>WiFi CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/I</Name>
+					<FileName>WiFi CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>WiFi Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Margin</Name>
+					<FileName>WiFi Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Diversity Gain</Name>
+					<FileName>WiFi Diversity Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink MIMO Gain</Name>
+					<FileName>WiFi MIMO Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Max Data Rate</Name>
+					<FileName>WiFi Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Average Data Rate</Name>
+					<FileName>WiFi Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Transmit Power</Name>
+					<FileName>WiFi UL_Tx_Power.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Margin</Name>
+					<FileName>WiFi Margin.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>FixedWiMAXTDD</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Server Preamble Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Best Server Preamble Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Preamble C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Preamble Coverage Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MAP C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MAP Coverage Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Overall Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Overall Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink C/I</Name>
+					<FileName>WiMAX CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Overall Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Overall Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/I</Name>
+					<FileName>WiMAX CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>WiMAX MIMO A Gain</Name>
+					<FileName>WiMAX MIMO A Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>WiMAX MIMO B Gain</Name>
+					<FileName>WiMAX MIMO B Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPE azimuth</Name>
+					<FileName>CPEAzim.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>FixedWiMAXFDD</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Server Preamble Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Best Server Preamble Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Preamble C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Preamble Coverage Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MAP C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MAP Coverage Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Overall Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Overall Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink C/I</Name>
+					<FileName>WiMAX CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Overall Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Overall Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/(N+I)</Name>
+					<FileName>WiMAX CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink C/I</Name>
+					<FileName>WiMAX CI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Coverage Probability &lt;Modulations&gt;</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Achievable Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Average Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Margin</Name>
+					<FileName>WiMAX Margin.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>WiMAX MIMO A Gain</Name>
+					<FileName>WiMAX MIMO A Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>WiMAX MIMO B Gain</Name>
+					<FileName>WiMAX MIMO B Gain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink Maximum Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Probability</Name>
+					<FileName>WiMAX Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink Maximum Data Rate</Name>
+					<FileName>WiMAX Data Rate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPE azimuth</Name>
+					<FileName>CPEAzim.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot Signal Strength</Name>
+					<FileName>WiMAX Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>CDMA2000</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Pilot - Best Ec/Io</Name>
+					<FileName>PltEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - Best Ec</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - Total Ec</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - Pollution Index</Name>
+					<FileName>PilotPolIndex.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - Delta Ec/Io</Name>
+					<FileName>PilotDelta.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - Received Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - Total Ec/Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - Outdoor Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - Sum of Pilots minus Best Pilot</Name>
+					<FileName>SumOfPilots.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - In Cell To Out Of Cell Interference</Name>
+					<FileName>InToOutInterfr.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Pilot - i-Factor</Name>
+					<FileName>IFactor.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xRTT - Best Pilot Composite Field Strength</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xRTT - Best Pilot Composite Ec/Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xEVDO - Best Pilot Composite Field Strength</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xEVDO - Best Pilot Composite Ec/Nt</Name>
+					<FileName>PilotEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xEVDO - Best Pilot Composite Ec/Io</Name>
+					<FileName>PilotEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Pilot Composite Field Strength</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Pilot Composite Ec/Nt</Name>
+					<FileName>PilotEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Forward - Coverage Probability</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Forward - Eb/No</Name>
+					<FileName>FwdEbNo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Forward - Outdoor Io</Name>
+					<FileName>PltEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Forward - Received Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Forward - In Cell To Out Of Cell Interference</Name>
+					<FileName>InToOutInterfr.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Forward - i-Factor</Name>
+					<FileName>IFactor.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Forward - Throughput</Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Forward - Bearer Coverage</Name>
+					<FileName>VoiceCov.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - Coverage Probability</Name>
+					<FileName>CoverageProbability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - Req Mobile EIRP</Name>
+					<FileName>RvReqERP.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xRTT - Best Composite Reverse - Req Mobile EIRP</Name>
+					<FileName>RvReqERP.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xRTT - Best Composite Reverse - Required EIRP of Max Achieved Data Rate</Name>
+					<FileName>RvReqERP.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - Mobile EIRP Margin</Name>
+					<FileName>RvReqMgn.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - Required EIRP of Max Achieved Data Rate</Name>
+					<FileName>RvReqERP.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - EIRP Margin of Max Achieved Data Rate</Name>
+					<FileName>RvReqMgn.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - Eb/No</Name>
+					<FileName>FwdEbNo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - Load</Name>
+					<FileName>RvsLoad.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - Throughput</Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Reverse - Bearer Coverage</Name>
+					<FileName>VoiceCov.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Handoff - Soft Handoff Gain</Name>
+					<FileName>SftHndGn.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Other - Combined Probability</Name>
+					<FileName>VoiceCov.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Ec/Nt</Name>
+					<FileName>PltEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Pilot Ec/Nt</Name>
+					<FileName>PltEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 4.8 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 9.6 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 19.2 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 38.4 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 76.8 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 153.6 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 307.2 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 614.4 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 921.6 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 1228.8 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 1536.0 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 1843.2 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 2150.4 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 2457.6 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 3072.0 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 3686.4 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 4300.8 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Coverage at 4915.2 kbps</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xEVDO - Forward Multicarrier Data Rate</Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>1xEVDO - Reverse Multicarrier Data Rate</Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>EV DO - Forward Cell Throughput </Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total Signal Strength</Name>
+					<FileName>SignalStrength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Synchronization Ec</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Paging Ec</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>WCDMA</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>CPICH - Best Ec/Io</Name>
+					<FileName>CPCHEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best CPICH Composite Ec/Io</Name>
+					<FileName>CPCHEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPICH - Best Ec</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Pilot Composite Ec/Nt</Name>
+					<FileName>PilotEcIo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPICH Composite Field Strength</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best CPICH Composite Field Strength</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPICH - Total Ec</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPICH - Pollution Index</Name>
+					<FileName>CPCHPolIndex.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPICH - Delta Ec/Io</Name>
+					<FileName>CPCHDelta.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPICH - Received Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPICH - Total Ec/Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>CPICH - Sum of CPICH minus Best CPICH</Name>
+					<FileName>SumOfCPCH.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink - Bearer Coverage</Name>
+					<FileName>VoiceCov.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink - Coverage Probability</Name>
+					<FileName>VoiceCov.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink - Eb/No</Name>
+					<FileName>FwdEbNo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink - Received Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink - Outdoor Io</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink - In Cell To Out Of Cell Interference</Name>
+					<FileName>InToOutInterfr.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Downlink - i-Factor</Name>
+					<FileName>IFactor.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink - Required EIRP of Max Achieved Data Rate</Name>
+					<FileName>RvReqERP.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Composite Uplink Required EIRP of Max Achieved Data Rate</Name>
+					<FileName>RvReqERP.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink - EIRP Margin of Max Achieved Data Rate</Name>
+					<FileName>RvReqMgn.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink - Eb/No</Name>
+					<FileName>FwdEbNo.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink - Load</Name>
+					<FileName>RvsLoad.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink - Coverage Probability</Name>
+					<FileName>VoiceCov.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink - Req Mobile EIRP</Name>
+					<FileName>RvReqERP.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Composite Uplink Req Mobile EIRP</Name>
+					<FileName>RvReqERP.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink - Mobile EIRP Margin</Name>
+					<FileName>RvReqMgn.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Uplink - Bearer Coverage</Name>
+					<FileName>VoiceCov.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Other - Combined Probability</Name>
+					<FileName>VoiceCov.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Handover - Soft Handover Gain</Name>
+					<FileName>SftHndGn.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>HS-SCCH - Ec/Nt</Name>
+					<FileName>HsScchEcNt.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>HS-SCCH - EIRP Margin</Name>
+					<FileName>RvReqMgn.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>HS-DSCH - Coverage</Name>
+					<FileName>ForwardServiceCoverage.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>HS-DSCH - Max Achievable Data Rate</Name>
+					<FileName>R11_HsdschMaxDataRate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>HSDPA Spectral Efficiency</Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MIMO Gain</Name>
+					<FileName>MimoGain.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>HS-DSCH - Ec/Nt</Name>
+					<FileName>HsdpaEcNt.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best HS-DSCH Composite Ec/Nt</Name>
+					<FileName>HsdpaEcNt.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>E-DCH - Coverage</Name>
+					<FileName>CoverageProbability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>E-DCH – Max Achievable Data Rate</Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>E-DCH - Average Data Rate</Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>MC-HSDPA Data Rate</Name>
+					<FileName>R11_HsdschMaxDataRate.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>DC-HSUPA Data Rate</Name>
+					<FileName>Throughput.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total Signal Strength</Name>
+					<FileName>SignalStrength.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>SCH/P-CCPCH Ec</Name>
+					<FileName>RecdIO.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Geometry Factor</Name>
+					<FileName>LTE Geometry Factor.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>GSM</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>FieldStr.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Required Mobile Power</Name>
+					<FileName>ReqMobilePowerGSM.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/(I + A)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/(I + A)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Offender C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Offender C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/(I+A+N)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/(I+A+N)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Coverage probability</Name>
+					<FileName>CoverageProbability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>BER</Name>
+					<FileName>BER.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>FER</Name>
+					<FileName>FER.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>iDEN</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>FieldStr.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Required Mobile Power</Name>
+					<FileName>ReqMobilePowerGSM.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/(I + A)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/(I + A)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Offender C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Offender C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/(I+A+N)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/(I+A+N)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Coverage probability</Name>
+					<FileName>CoverageProbability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>BER</Name>
+					<FileName>BER.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>FER</Name>
+					<FileName>FER.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>SQE</Name>
+					<FileName>SQE.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>TDMA-FDMA</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>FieldStr.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Required Mobile Power</Name>
+					<FileName>ReqMobilePowerGSM.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/(I + A)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/(I + A)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Offender C/I</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Offender C/A</Name>
+					<FileName>CToA.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total C/(I+A+N)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Carrier Averaged C/(I+A+N)</Name>
+					<FileName>CToI.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Coverage probability</Name>
+					<FileName>CoverageProbability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>BER</Name>
+					<FileName>BER.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>FER</Name>
+					<FileName>FER.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+		<ColorProfileCategory>
+			<Name>Simulcast</Name>
+			<Associations>
+				<ColorProfileAssociation>
+					<Name>Best Server Signal Strength</Name>
+					<FileName>Simulcast Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Strongest Sector Signal Srength</Name>
+					<FileName>Simulcast Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Best Server Time Arrival</Name>
+					<FileName>Simulcast Best Server Time Arrival.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>&lt;Nth&gt; Strongest Sector Time Differential</Name>
+					<FileName>Simulcast Best Server Time Arrival.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total Simulcast C/(N+I)</Name>
+					<FileName>Simulcast CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total Simulcast C Signal Strength</Name>
+					<FileName>Simulcast Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Total Simulcast I Signal Strength</Name>
+					<FileName>Simulcast Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Simulcast Coverage Probability</Name>
+					<FileName>Simulcast Coverage Probability.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Interferer Signal Srength</Name>
+					<FileName>Simulcast Best Server Signal Level.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Interferer C/I</Name>
+					<FileName>Simulcast CNIR.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Worst Interferer Time Differential</Name>
+					<FileName>Simulcast Best Server Time Arrival.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>Multipath Delay Spread</Name>
+					<FileName>Simulcast Multipath Delay Spread.vcp</FileName>
+				</ColorProfileAssociation>
+				<ColorProfileAssociation>
+					<Name>BER</Name>
+					<FileName>Simulcast BER.vcp</FileName>
+				</ColorProfileAssociation>
+			</Associations>
+		</ColorProfileCategory>
+	</ColorProfileCategoriesList>
+</ColorProfileCategories>

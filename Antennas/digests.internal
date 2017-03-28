@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfKeyValueOfstringAntennaCache.CachedAntennak0WGUhrw xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+  <KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+    <Key>Default_FixedWiMAXTDD_5.8</Key>
+    <Value xmlns:d3p1="http://schemas.datacontract.org/2004/07/RFAccessLayer.Antennas">
+      <d3p1:Digests>
+        <d3p1:PhysicalAntennaDigest>
+          <d3p1:DbiGain>16.05</d3p1:DbiGain>
+          <d3p1:Frequency>5900</d3p1:Frequency>
+          <d3p1:FrontToBackRatio>30</d3p1:FrontToBackRatio>
+          <d3p1:HorizontalBeamWidth>92.83333</d3p1:HorizontalBeamWidth>
+          <d3p1:Manufacturer></d3p1:Manufacturer>
+          <d3p1:MaxFrequencyMHz>6000</d3p1:MaxFrequencyMHz>
+          <d3p1:MinFrequencyMHz>5800</d3p1:MinFrequencyMHz>
+          <d3p1:VerticalBeamWidth>5.027526</d3p1:VerticalBeamWidth>
+        </d3p1:PhysicalAntennaDigest>
+      </d3p1:Digests>
+      <d3p1:LastModified>2013-12-06T21:02:16-05:00</d3p1:LastModified>
+    </Value>
+  </KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+  <KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+    <Key>Default_WiMAX_2.6</Key>
+    <Value xmlns:d3p1="http://schemas.datacontract.org/2004/07/RFAccessLayer.Antennas">
+      <d3p1:Digests>
+        <d3p1:PhysicalAntennaDigest>
+          <d3p1:DbiGain>16.3</d3p1:DbiGain>
+          <d3p1:Frequency>2600</d3p1:Frequency>
+          <d3p1:FrontToBackRatio>24.9</d3p1:FrontToBackRatio>
+          <d3p1:HorizontalBeamWidth>91.83333</d3p1:HorizontalBeamWidth>
+          <d3p1:Manufacturer>Stella Doradus</d3p1:Manufacturer>
+          <d3p1:MaxFrequencyMHz>2700</d3p1:MaxFrequencyMHz>
+          <d3p1:MinFrequencyMHz>2500</d3p1:MinFrequencyMHz>
+          <d3p1:VerticalBeamWidth>7.316854</d3p1:VerticalBeamWidth>
+        </d3p1:PhysicalAntennaDigest>
+      </d3p1:Digests>
+      <d3p1:LastModified>2013-12-06T21:02:16-05:00</d3p1:LastModified>
+    </Value>
+  </KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+  <KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+    <Key>Default_WiMAX_3.5</Key>
+    <Value xmlns:d3p1="http://schemas.datacontract.org/2004/07/RFAccessLayer.Antennas">
+      <d3p1:Digests>
+        <d3p1:PhysicalAntennaDigest>
+          <d3p1:DbiGain>15</d3p1:DbiGain>
+          <d3p1:Frequency>3500</d3p1:Frequency>
+          <d3p1:FrontToBackRatio>20</d3p1:FrontToBackRatio>
+          <d3p1:HorizontalBeamWidth>118</d3p1:HorizontalBeamWidth>
+          <d3p1:Manufacturer>Stella Doradus</d3p1:Manufacturer>
+          <d3p1:MaxFrequencyMHz>3600</d3p1:MaxFrequencyMHz>
+          <d3p1:MinFrequencyMHz>3400</d3p1:MinFrequencyMHz>
+          <d3p1:VerticalBeamWidth>7.6</d3p1:VerticalBeamWidth>
+        </d3p1:PhysicalAntennaDigest>
+      </d3p1:Digests>
+      <d3p1:LastModified>2013-12-06T21:02:16-05:00</d3p1:LastModified>
+    </Value>
+  </KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+  <KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+    <Key>Missing_default</Key>
+    <Value xmlns:d3p1="http://schemas.datacontract.org/2004/07/RFAccessLayer.Antennas">
+      <d3p1:Digests>
+        <d3p1:PhysicalAntennaDigest>
+          <d3p1:DbiGain>15</d3p1:DbiGain>
+          <d3p1:Frequency>1410</d3p1:Frequency>
+          <d3p1:FrontToBackRatio>22</d3p1:FrontToBackRatio>
+          <d3p1:HorizontalBeamWidth>62</d3p1:HorizontalBeamWidth>
+          <d3p1:Manufacturer>TIL-TEK Antennas Inc.</d3p1:Manufacturer>
+          <d3p1:MaxFrequencyMHz>1510</d3p1:MaxFrequencyMHz>
+          <d3p1:MinFrequencyMHz>1310</d3p1:MinFrequencyMHz>
+          <d3p1:VerticalBeamWidth>14.708334</d3p1:VerticalBeamWidth>
+        </d3p1:PhysicalAntennaDigest>
+      </d3p1:Digests>
+      <d3p1:LastModified>2013-12-06T21:02:16-05:00</d3p1:LastModified>
+    </Value>
+  </KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+  <KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+    <Key>Omni</Key>
+    <Value xmlns:d3p1="http://schemas.datacontract.org/2004/07/RFAccessLayer.Antennas">
+      <d3p1:Digests>
+        <d3p1:PhysicalAntennaDigest>
+          <d3p1:DbiGain>2.5</d3p1:DbiGain>
+          <d3p1:Frequency>920</d3p1:Frequency>
+          <d3p1:FrontToBackRatio>1</d3p1:FrontToBackRatio>
+          <d3p1:HorizontalBeamWidth>360</d3p1:HorizontalBeamWidth>
+          <d3p1:Manufacturer>Jaybeam Wireless</d3p1:Manufacturer>
+          <d3p1:MaxFrequencyMHz>1020</d3p1:MaxFrequencyMHz>
+          <d3p1:MinFrequencyMHz>820</d3p1:MinFrequencyMHz>
+          <d3p1:VerticalBeamWidth>68</d3p1:VerticalBeamWidth>
+        </d3p1:PhysicalAntennaDigest>
+        <d3p1:PhysicalAntennaDigest>
+          <d3p1:DbiGain>6.5</d3p1:DbiGain>
+          <d3p1:Frequency>2000</d3p1:Frequency>
+          <d3p1:FrontToBackRatio>28.8</d3p1:FrontToBackRatio>
+          <d3p1:HorizontalBeamWidth>360</d3p1:HorizontalBeamWidth>
+          <d3p1:Manufacturer>Jaybeam Wireless</d3p1:Manufacturer>
+          <d3p1:MaxFrequencyMHz>2100</d3p1:MaxFrequencyMHz>
+          <d3p1:MinFrequencyMHz>1900</d3p1:MinFrequencyMHz>
+          <d3p1:VerticalBeamWidth>32.9285736</d3p1:VerticalBeamWidth>
+        </d3p1:PhysicalAntennaDigest>
+      </d3p1:Digests>
+      <d3p1:LastModified>2013-12-06T21:02:16-05:00</d3p1:LastModified>
+    </Value>
+  </KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+  <KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+    <Key>TGA-1448</Key>
+    <Value xmlns:d3p1="http://schemas.datacontract.org/2004/07/RFAccessLayer.Antennas">
+      <d3p1:Digests>
+        <d3p1:PhysicalAntennaDigest>
+          <d3p1:DbiGain>23.5</d3p1:DbiGain>
+          <d3p1:Frequency>1480</d3p1:Frequency>
+          <d3p1:FrontToBackRatio>30</d3p1:FrontToBackRatio>
+          <d3p1:HorizontalBeamWidth>11.4415588</d3p1:HorizontalBeamWidth>
+          <d3p1:Manufacturer>TIL-TEK Antennas Inc.</d3p1:Manufacturer>
+          <d3p1:MaxFrequencyMHz>1580</d3p1:MaxFrequencyMHz>
+          <d3p1:MinFrequencyMHz>1380</d3p1:MinFrequencyMHz>
+          <d3p1:VerticalBeamWidth>10.954546</d3p1:VerticalBeamWidth>
+        </d3p1:PhysicalAntennaDigest>
+      </d3p1:Digests>
+      <d3p1:LastModified>2013-12-06T21:02:16-05:00</d3p1:LastModified>
+    </Value>
+  </KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+  <KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+    <Key>TGA-1472</Key>
+    <Value xmlns:d3p1="http://schemas.datacontract.org/2004/07/RFAccessLayer.Antennas">
+      <d3p1:Digests>
+        <d3p1:PhysicalAntennaDigest>
+          <d3p1:DbiGain>27</d3p1:DbiGain>
+          <d3p1:Frequency>1480</d3p1:Frequency>
+          <d3p1:FrontToBackRatio>30</d3p1:FrontToBackRatio>
+          <d3p1:HorizontalBeamWidth>7.209559</d3p1:HorizontalBeamWidth>
+          <d3p1:Manufacturer>TIL-TEK Antennas Inc.</d3p1:Manufacturer>
+          <d3p1:MaxFrequencyMHz>1580</d3p1:MaxFrequencyMHz>
+          <d3p1:MinFrequencyMHz>1380</d3p1:MinFrequencyMHz>
+          <d3p1:VerticalBeamWidth>6.490431</d3p1:VerticalBeamWidth>
+        </d3p1:PhysicalAntennaDigest>
+      </d3p1:Digests>
+      <d3p1:LastModified>2013-12-06T21:02:16-05:00</d3p1:LastModified>
+    </Value>
+  </KeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>
+</ArrayOfKeyValueOfstringAntennaCache.CachedAntennak0WGUhrw>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphLine xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://mentum.com/planetservice/v1">
+  <Version>1</Version>
+  <XUnits>Decibels</XUnits>
+  <YUnits>Percent</YUnits>
+  <XAxisTitle>C/I</XAxisTitle>
+  <YAxisTitle>FER</YAxisTitle>
+  <Points>
+    <PointOfdouble>
+      <X>2</X>
+      <Y>58</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>4</X>
+      <Y>35</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>6</X>
+      <Y>15.24</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>8</X>
+      <Y>3.85</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>10</X>
+      <Y>0.67</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>12</X>
+      <Y>0.12</Y>
+    </PointOfdouble>
+  </Points>
+</GraphLine>

@@ -1,0 +1,928 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:CurvesInfoCollection id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ArrayList_x002B__items href="#ref-3"/>
+<ArrayList_x002B__size>131</ArrayList_x002B__size>
+<ArrayList_x002B__version>131</ArrayList_x002B__version>
+</a1:CurvesInfoCollection>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="xsd:anyType[256]">
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-5">F:\aws project 653\Curves\CtoI_Weights_GSM_adjchannel_scurve.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-6">C/I</XLabel>
+<YLabel id="ref-7">% of interference</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-8">F:\aws project 653\Curves\CtoI_Weights_GSM_adjchannel_simple.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-9">C/I</XLabel>
+<YLabel id="ref-10">% of interference</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-11">F:\aws project 653\Curves\CtoI_Weights_GSM_cochannel_scurve.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-12">C/I</XLabel>
+<YLabel id="ref-13">% of interference</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-14">F:\aws project 653\Curves\CtoI_Weights_GSM_cochannel_simple.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-15">C/I</XLabel>
+<YLabel id="ref-16">% of interference</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-17">F:\aws project 653\Curves\CtoI_Weights_IS136_adjchannel_scurve.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-18">C/I</XLabel>
+<YLabel id="ref-19">% of interference</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-20">F:\aws project 653\Curves\CtoI_Weights_IS136_adjchannel_simple.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-21">C/I</XLabel>
+<YLabel id="ref-22">% of interference</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-23">F:\aws project 653\Curves\CtoI_Weights_IS136_cochannel_scurve.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-24">C/I</XLabel>
+<YLabel id="ref-25">% of interference</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-26">F:\aws project 653\Curves\CtoI_Weights_IS136_cochannel_simple.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-27">C/I</XLabel>
+<YLabel id="ref-28">% of interference</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-29">F:\aws project 653\Curves\BER_TU3_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-30">C/I</XLabel>
+<YLabel id="ref-31">BER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-32">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC1_Fund_9.6_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-33">EbNo</XLabel>
+<YLabel id="ref-34">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-35">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC1_Fund_9.6_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-36">EbNo</XLabel>
+<YLabel id="ref-37">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-38">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC1_Sup_9.6_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-39">EbNo</XLabel>
+<YLabel id="ref-40">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-41">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC1_Sup_9.6_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-42">EbNo</XLabel>
+<YLabel id="ref-43">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-44">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC2_Fund_14.4_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-45">EbNo</XLabel>
+<YLabel id="ref-46">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-47">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC2_Fund_14.4_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-48">EbNo</XLabel>
+<YLabel id="ref-49">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-50">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC2_Sup_14.4_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-51">EbNo</XLabel>
+<YLabel id="ref-52">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-53">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC2_Sup_14.4_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-54">EbNo</XLabel>
+<YLabel id="ref-55">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-56">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_Fund_9.6_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-57">EbNo</XLabel>
+<YLabel id="ref-58">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-59">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_Fund_9.6_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-60">EbNo</XLabel>
+<YLabel id="ref-61">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-62">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_153.6_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-63">EbNo</XLabel>
+<YLabel id="ref-64">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-65">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_153.6_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-66">EbNo</XLabel>
+<YLabel id="ref-67">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-68">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_19.2_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-69">EbNo</XLabel>
+<YLabel id="ref-70">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-71">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_19.2_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-72">EbNo</XLabel>
+<YLabel id="ref-73">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-74">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_307.2_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-75">EbNo</XLabel>
+<YLabel id="ref-76">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-77">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_38.4_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-78">EbNo</XLabel>
+<YLabel id="ref-79">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-80">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_38.4_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-81">EbNo</XLabel>
+<YLabel id="ref-82">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-83">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_76.8_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-84">EbNo</XLabel>
+<YLabel id="ref-85">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-86">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC3_SupConv_76.8_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-87">EbNo</XLabel>
+<YLabel id="ref-88">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-89">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_Fund_14.4_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-90">EbNo</XLabel>
+<YLabel id="ref-91">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-92">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_Fund_9.6_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-93">EbNo</XLabel>
+<YLabel id="ref-94">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-95">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_115.2_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-96">EbNo</XLabel>
+<YLabel id="ref-97">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-98">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_153.6_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-99">EbNo</XLabel>
+<YLabel id="ref-100">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-101">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_19.2_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-102">EbNo</XLabel>
+<YLabel id="ref-103">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-104">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_230.4_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-105">EbNo</XLabel>
+<YLabel id="ref-106">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-107">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_28.8_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-108">EbNo</XLabel>
+<YLabel id="ref-109">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-110">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_307.2_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-111">EbNo</XLabel>
+<YLabel id="ref-112">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-113">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_38.4_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-114">EbNo</XLabel>
+<YLabel id="ref-115">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-116">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_57.6_Rev.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-117">EbNo</XLabel>
+<YLabel id="ref-118">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-119">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC4_SupConv_76.8_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-120">EbNo</XLabel>
+<YLabel id="ref-121">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-122">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC5_Fund_14.4_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-123">EbNo</XLabel>
+<YLabel id="ref-124">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-125">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC5_SupConv_115.2_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-126">EbNo</XLabel>
+<YLabel id="ref-127">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-128">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC5_SupConv_230.4_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-129">EbNo</XLabel>
+<YLabel id="ref-130">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-131">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC5_SupConv_28.8_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-132">EbNo</XLabel>
+<YLabel id="ref-133">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-134">F:\aws project 653\Curves\CDMA_AWGN_FER_EbNo_RC5_SupConv_57.6_Fwd.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-135">EbNo</XLabel>
+<YLabel id="ref-136">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-137">F:\aws project 653\Curves\CPICHFactorCurve.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>None</YUnit>
+<XLabel id="ref-138">Sum of CPICH minus Best CPICH</XLabel>
+<YLabel id="ref-139">CPICH Factor</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-140">F:\aws project 653\Curves\EV-DO_153K6_Rev0.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-141">Ec/Nt of Pilot Channel</XLabel>
+<YLabel id="ref-142">PER of Data Channel</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-143">F:\aws project 653\Curves\EV-DO_19K2_Rev0.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-144">Ec/Nt of Pilot Channel</XLabel>
+<YLabel id="ref-145">PER of Data Channel</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-146">F:\aws project 653\Curves\EV-DO_38K4_Rev0.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-147">Ec/Nt of Pilot Channel</XLabel>
+<YLabel id="ref-148">PER of Data Channel</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-149">F:\aws project 653\Curves\EV-DO_76K8_Rev0.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-150">Ec/Nt of Pilot Channel</XLabel>
+<YLabel id="ref-151">PER of Data Channel</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-152">F:\aws project 653\Curves\EV-DO_9K6_Rev0.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-153">Ec/Nt of Pilot Channel</XLabel>
+<YLabel id="ref-154">PER of Data Channel</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-155">F:\aws project 653\Curves\EV-DO_Round-Robin_NoGain_Scheduler_Gain.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-156">Number of Subscribers</XLabel>
+<YLabel id="ref-157">Scheduler Gain</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-158">F:\aws project 653\Curves\EV-DO_Scheduler_Gain_Curve.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-159">Number of Subscribers</XLabel>
+<YLabel id="ref-160">Scheduler Gain</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-161">F:\aws project 653\Curves\EV-DO_Suburban_Proportional-Fair_Scheduler_Gain.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-162">Number of Subscribers</XLabel>
+<YLabel id="ref-163">Scheduler Gain</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-164">F:\aws project 653\Curves\EV-DO_Urban_Proportional-Fair_Scheduler_Gain.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-165">Number of Subscribers</XLabel>
+<YLabel id="ref-166">Scheduler Gain</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-167">F:\aws project 653\Curves\FER_12freq_TU3_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-168">C/I</XLabel>
+<YLabel id="ref-169">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-170">F:\aws project 653\Curves\FER_12freq_TU50_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-171">C/I</XLabel>
+<YLabel id="ref-172">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-173">F:\aws project 653\Curves\FER_1freq_TU3_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-174">C/I</XLabel>
+<YLabel id="ref-175">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-176">F:\aws project 653\Curves\FER_1freq_TU50_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-177">C/I</XLabel>
+<YLabel id="ref-178">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-179">F:\aws project 653\Curves\FER_2freq_TU3_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-180">C/I</XLabel>
+<YLabel id="ref-181">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-182">F:\aws project 653\Curves\FER_2freq_TU50_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-183">C/I</XLabel>
+<YLabel id="ref-184">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-185">F:\aws project 653\Curves\FER_3freq_TU3_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-186">C/I</XLabel>
+<YLabel id="ref-187">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-188">F:\aws project 653\Curves\FER_3freq_TU50_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-189">C/I</XLabel>
+<YLabel id="ref-190">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-191">F:\aws project 653\Curves\FER_4freq_TU3_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-192">C/I</XLabel>
+<YLabel id="ref-193">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-194">F:\aws project 653\Curves\FER_4freq_TU50_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-195">C/I</XLabel>
+<YLabel id="ref-196">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-197">F:\aws project 653\Curves\FER_8freq_TU3_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-198">C/I</XLabel>
+<YLabel id="ref-199">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-200">F:\aws project 653\Curves\FER_8freq_TU50_900MHz.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-201">C/I</XLabel>
+<YLabel id="ref-202">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-203">F:\aws project 653\Curves\FER_EbNo_12.2_LCD_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-204">EbNo</XLabel>
+<YLabel id="ref-205">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-206">F:\aws project 653\Curves\FER_EbNo_12.2_LCD_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-207">EbNo</XLabel>
+<YLabel id="ref-208">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-209">F:\aws project 653\Curves\FER_EbNo_12.2_LCD_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-210">EbNo</XLabel>
+<YLabel id="ref-211">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-212">F:\aws project 653\Curves\FER_EbNo_12.2_LCD_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-213">EbNo</XLabel>
+<YLabel id="ref-214">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-215">F:\aws project 653\Curves\FER_EbNo_144_LCD_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-216">EbNo</XLabel>
+<YLabel id="ref-217">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-218">F:\aws project 653\Curves\FER_EbNo_144_LCD_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-219">EbNo</XLabel>
+<YLabel id="ref-220">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-221">F:\aws project 653\Curves\FER_EbNo_144_LCD_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-222">EbNo</XLabel>
+<YLabel id="ref-223">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-224">F:\aws project 653\Curves\FER_EbNo_144_LCD_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-225">EbNo</XLabel>
+<YLabel id="ref-226">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-227">F:\aws project 653\Curves\FER_EbNo_144_UDD_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-228">EbNo</XLabel>
+<YLabel id="ref-229">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-230">F:\aws project 653\Curves\FER_EbNo_144_UDD_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-231">EbNo</XLabel>
+<YLabel id="ref-232">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-233">F:\aws project 653\Curves\FER_EbNo_144_UDD_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-234">EbNo</XLabel>
+<YLabel id="ref-235">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-236">F:\aws project 653\Curves\FER_EbNo_144_UDD_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-237">EbNo</XLabel>
+<YLabel id="ref-238">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-239">F:\aws project 653\Curves\FER_EbNo_32_UDD_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-240">EbNo</XLabel>
+<YLabel id="ref-241">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-242">F:\aws project 653\Curves\FER_EbNo_32_UDD_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-243">EbNo</XLabel>
+<YLabel id="ref-244">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-245">F:\aws project 653\Curves\FER_EbNo_384_UDD_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-246">EbNo</XLabel>
+<YLabel id="ref-247">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-248">F:\aws project 653\Curves\FER_EbNo_384_UDD_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-249">EbNo</XLabel>
+<YLabel id="ref-250">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-251">F:\aws project 653\Curves\FER_EbNo_384_UDD_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-252">EbNo</XLabel>
+<YLabel id="ref-253">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-254">F:\aws project 653\Curves\FER_EbNo_384_UDD_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-255">EbNo</XLabel>
+<YLabel id="ref-256">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-257">F:\aws project 653\Curves\FER_EbNo_64_LCD_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-258">EbNo</XLabel>
+<YLabel id="ref-259">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-260">F:\aws project 653\Curves\FER_EbNo_64_LCD_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-261">EbNo</XLabel>
+<YLabel id="ref-262">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-263">F:\aws project 653\Curves\FER_EbNo_64_LCD_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-264">EbNo</XLabel>
+<YLabel id="ref-265">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-266">F:\aws project 653\Curves\FER_EbNo_64_LCD_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-267">EbNo</XLabel>
+<YLabel id="ref-268">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-269">F:\aws project 653\Curves\FER_EbNo_64_UDD_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-270">EbNo</XLabel>
+<YLabel id="ref-271">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-272">F:\aws project 653\Curves\FER_EbNo_64_UDD_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-273">EbNo</XLabel>
+<YLabel id="ref-274">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-275">F:\aws project 653\Curves\FER_EbNo_64_UDD_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-276">EbNo</XLabel>
+<YLabel id="ref-277">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-278">F:\aws project 653\Curves\FER_EbNo_64_UDD_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-279">EbNo</XLabel>
+<YLabel id="ref-280">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-281">F:\aws project 653\Curves\HSDPA_Round-Robin_NoGain_Scheduler_Gain.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-282">Number of Subscribers</XLabel>
+<YLabel id="ref-283">Scheduler Gain</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-284">F:\aws project 653\Curves\HSDPA_Scheduler_Gain_Curve.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-285">Number of Subscribers</XLabel>
+<YLabel id="ref-286">Scheduler Gain</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-287">F:\aws project 653\Curves\HSDPA_Suburban_Proportional-Fair_Scheduler_Gain.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-288">Number of Subscribers</XLabel>
+<YLabel id="ref-289">Scheduler Gain</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-290">F:\aws project 653\Curves\HSDPA_Urban_Proportional-Fair_Scheduler_Gain.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-291">Number of Subscribers</XLabel>
+<YLabel id="ref-292">Scheduler Gain</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-293">F:\aws project 653\Curves\PilotFactorCurve.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>None</YUnit>
+<XLabel id="ref-294">Sum of Pilots minus Best Pilot</XLabel>
+<YLabel id="ref-295">Pilot Factor</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-296">F:\aws project 653\Curves\SQE_vs_CI.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Decibels</YUnit>
+<XLabel id="ref-297">C/I</XLabel>
+<YLabel id="ref-298">SQE</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-299">F:\aws project 653\Curves\UsageFactorCurve.curve</FileName>
+<XUnit>None</XUnit>
+<YUnit>None</YUnit>
+<XLabel id="ref-300">Milli Erlang per square km</XLabel>
+<YLabel id="ref-301">Usage Factor</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-302">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_12.2_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-303">EbNo</XLabel>
+<YLabel id="ref-304">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-305">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_12.2_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-306">EbNo</XLabel>
+<YLabel id="ref-307">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-308">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_12.2_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-309">EbNo</XLabel>
+<YLabel id="ref-310">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-311">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_12.2_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-312">EbNo</XLabel>
+<YLabel id="ref-313">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-314">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_128_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-315">EbNo</XLabel>
+<YLabel id="ref-316">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-317">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_128_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-318">EbNo</XLabel>
+<YLabel id="ref-319">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-320">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_128_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-321">EbNo</XLabel>
+<YLabel id="ref-322">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-323">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_128_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-324">EbNo</XLabel>
+<YLabel id="ref-325">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-326">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_256_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-327">EbNo</XLabel>
+<YLabel id="ref-328">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-329">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_256_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-330">EbNo</XLabel>
+<YLabel id="ref-331">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-332">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_256_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-333">EbNo</XLabel>
+<YLabel id="ref-334">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-335">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_256_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-336">EbNo</XLabel>
+<YLabel id="ref-337">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-338">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_32_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-339">EbNo</XLabel>
+<YLabel id="ref-340">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-341">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_32_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-342">EbNo</XLabel>
+<YLabel id="ref-343">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-344">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_32_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-345">EbNo</XLabel>
+<YLabel id="ref-346">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-347">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_32_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-348">EbNo</XLabel>
+<YLabel id="ref-349">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-350">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_384_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-351">EbNo</XLabel>
+<YLabel id="ref-352">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-353">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_384_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-354">EbNo</XLabel>
+<YLabel id="ref-355">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-356">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_384_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-357">EbNo</XLabel>
+<YLabel id="ref-358">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-359">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_384_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-360">EbNo</XLabel>
+<YLabel id="ref-361">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-362">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_48_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-363">EbNo</XLabel>
+<YLabel id="ref-364">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-365">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_48_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-366">EbNo</XLabel>
+<YLabel id="ref-367">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-368">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_48_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-369">EbNo</XLabel>
+<YLabel id="ref-370">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-371">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_48_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-372">EbNo</XLabel>
+<YLabel id="ref-373">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-374">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_56_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-375">EbNo</XLabel>
+<YLabel id="ref-376">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-377">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_56_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-378">EbNo</XLabel>
+<YLabel id="ref-379">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-380">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_56_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-381">EbNo</XLabel>
+<YLabel id="ref-382">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-383">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_56_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-384">EbNo</XLabel>
+<YLabel id="ref-385">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-386">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_64_DL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-387">EbNo</XLabel>
+<YLabel id="ref-388">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-389">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_64_DL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-390">EbNo</XLabel>
+<YLabel id="ref-391">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-392">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_64_UL_120kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-393">EbNo</XLabel>
+<YLabel id="ref-394">FER</YLabel>
+</item>
+<item xsi:type="a1:CurveInfo" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Marconi.Wnp.UI.Analysis.Analysis2G.Controls/Marconi.Wnp.Era.UI%2C%20Version%3D5.7.0.15863%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<FileName id="ref-395">F:\aws project 653\Curves\WCDMA_2100_FER_EbNo_64_UL_3kmh.curve</FileName>
+<XUnit>Decibels</XUnit>
+<YUnit>Percent</YUnit>
+<XLabel id="ref-396">EbNo</XLabel>
+<YLabel id="ref-397">FER</YLabel>
+</item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

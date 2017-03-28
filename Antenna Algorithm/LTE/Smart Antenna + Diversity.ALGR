@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AntennaAlgorithm xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="AntennaAlgorithms">
+  <AntennaAlgorithmVersion>1.30</AntennaAlgorithmVersion>
+  <DownlinkSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>EPA - 5 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>EVA – 5 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>EVA – 70 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>ETU – 70 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>ETU – 300 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+  </DownlinkSettings>
+  <Name>Smart Antenna + Diversity</Name>
+  <Standard>LTE</Standard>
+  <UplinkCollaborativeMimo>false</UplinkCollaborativeMimo>
+  <UplinkSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>EPA – 5 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>EVA – 5 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>EVA – 70 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>ETU – 70 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>ETU – 300 km/h</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains>
+          <AmsThresholdDb>10</AmsThresholdDb>
+          <ClutterTableInitialized>false</ClutterTableInitialized>
+          <DiversityClutterCorrection>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityCluttCorrDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityCluttCorrDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="100" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="100" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityCluttCorrDataTable" />
+                  <xs:field xpath="Clutter_x0020_Type" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </DiversityClutterCorrection>
+          <DiversityGains>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DiversityGainsDataTable" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="DiversityGainsDataTable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" type="xs:float" />
+                          <xs:element name="_x0031_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0031_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x1" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0032_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x2" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0034_x8" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x4" type="xs:float" default="0" minOccurs="0" />
+                          <xs:element name="_x0038_x8" type="xs:float" default="0" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+                <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                  <xs:selector xpath=".//DiversityGainsDataTable" />
+                  <xs:field xpath="C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_" />
+                </xs:unique>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement xmlns="">
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>0</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+                <DiversityGainsDataTable diffgr:id="DiversityGainsDataTable2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                  <C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>10</C_x002F__x0028_N_x002B_I_x0029__x0020__x0028_dB_x0029_>
+                  <_x0031_x2>3</_x0031_x2>
+                  <_x0032_x1>3</_x0032_x1>
+                  <_x0032_x2>6</_x0032_x2>
+                  <_x0031_x4>6</_x0031_x4>
+                  <_x0034_x1>6</_x0034_x1>
+                  <_x0032_x4>9</_x0032_x4>
+                  <_x0034_x2>9</_x0034_x2>
+                  <_x0034_x4>12</_x0034_x4>
+                  <_x0031_x8>9</_x0031_x8>
+                  <_x0038_x1>9</_x0038_x1>
+                  <_x0032_x8>12</_x0032_x8>
+                  <_x0038_x2>12</_x0038_x2>
+                  <_x0034_x8>15</_x0034_x8>
+                  <_x0038_x4>15</_x0038_x4>
+                  <_x0038_x8>18</_x0038_x8>
+                </DiversityGainsDataTable>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </DiversityGains>
+          <LineOfSightThresholdDb>25</LineOfSightThresholdDb>
+          <PreventUseOfMimoInLineOfSight>false</PreventUseOfMimoInLineOfSight>
+          <SpatialMultiplexingClutterCorrection i:nil="true" />
+          <SpatialMultiplexingRatios i:nil="true" />
+          <UseAutomaticAmsThreshold>false</UseAutomaticAmsThreshold>
+        </MimoGains>
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+  </UplinkSettings>
+</AntennaAlgorithm>

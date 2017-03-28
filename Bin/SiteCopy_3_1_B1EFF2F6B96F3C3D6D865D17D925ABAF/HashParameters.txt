@@ -1,0 +1,37 @@
+InterpolationMethod	null
+InterpolationDistance	0
+SurveyName	null
+SurveyDate	null
+SurveyOperator	null
+SurveyType	null
+UserID	AD\mandar
+Version	5.7 Build 316
+SiteName	SiteCopy_3
+SectorName	1
+RepeaterName	null
+CreateTime	10/20/2016 18:03:50
+PhysicalAntennaName	DPV090X14C200.
+PhysicalAntennaLocationX	-76.9271916477215
+PhysicalAntennaLocationY	38.9331528533187
+TerrainInMeters	26
+PhysicalAntennaHeightAboveGroundInMeters	42.67
+NumberOfRadials	60
+ProjectCoordSystemHashCode	0
+CommonAntennaHashCode	0
+CoordinateSystemString	Coordsys Earth Projection 8,74,"m",-75,0,0.9996,500000,0
+EnableSpt	False
+PredictionType	Modeled
+IsPathLossMasked	False
+IsUsingHorizontalPatternCorrection	False
+HorizontalPatternCorrection	null
+AntennaMaskingType	0
+PathlossCutoff	180
+Is64BitPrediction	True
+ModelName	default_PlanetGeneralModel
+ModelHashCode	047816E164BC28393D5DD2DB8BA105A1
+ElevationChecksum	0
+ElevationFile	wash_dc_elev_rs.grd
+ClutterChecksum	0
+ClutterFile	wash_dc_clt_rs.grc
+CompressionSetting	18000
+NormaliseOnTheFly	False

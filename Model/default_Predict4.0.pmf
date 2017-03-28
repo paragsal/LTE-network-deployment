@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<model schemaversion="1">
+	<info>
+		<name>Predict4</name>
+		<version>1.3</version>
+	</info>
+	<parameters>
+		<parameter>
+			<name>AltClutterName</name>
+			<value type="string" />
+		</parameter>
+		<parameter>
+			<name>AltElevationName</name>
+			<value type="string" />
+		</parameter>
+		<parameter>
+			<name>ClutterHeightName</name>
+			<value type="string" />
+		</parameter>
+		<parameter>
+			<name>DiffractionFactor</name>
+			<value type="float">1</value>
+		</parameter>
+		<parameter>
+			<name>EarthCurvature</name>
+			<value type="float">1.33333</value>
+		</parameter>
+		<parameter>
+			<name>FractionScatteredBuiltUp</name>
+			<value type="float">0.2</value>
+		</parameter>
+		<parameter>
+			<name>FractionScatteredForest</name>
+			<value type="float">0.04</value>
+		</parameter>
+		<parameter>
+			<name>FractionScatteredOpen</name>
+			<value type="float">0.02</value>
+		</parameter>
+		<parameter>
+			<name>FrequencyMHz</name>
+			<value type="float">900</value>
+		</parameter>
+		<parameter>
+			<name>MaxScatterRadius</name>
+			<value type="float">5000</value>
+		</parameter>
+		<parameter>
+			<name>NumRadials</name>
+			<value type="int32">65535</value>
+		</parameter>
+    <parameter>
+      <name>OutputResolutionFactor</name>
+      <value type="int32">1</value>
+    </parameter>
+		<parameter>
+			<name>PercentLocations</name>
+			<value type="float">50</value>
+		</parameter>
+		<parameter>
+			<name>PercentTime</name>
+			<value type="float">50</value>
+		</parameter>
+		<parameter>
+			<name>RainAttenuationOption</name>
+			<value type="string">NO_RAIN_ATTENUTATION</value>
+		</parameter>
+		<parameter>
+			<name>RainRate</name>
+			<value type="float">0</value>
+		</parameter>
+		<parameter>
+			<name>RxHeightGlobal</name>
+			<value type="boolean">True</value>
+		</parameter>
+		<parameter>
+			<name>RxHeightMeters</name>
+			<value type="float">1.5</value>
+		</parameter>
+		<parameter>
+			<name>SingleClutterClassName</name>
+			<value type="string">Unknown_Clutter_Class</value>
+		</parameter>
+		<parameter>
+			<name>Subversion</name>
+			<value type="string">4.7</value>
+		</parameter>
+		<parameter>
+			<name>TxHeightMeters</name>
+			<value type="float">-1</value>
+		</parameter>
+		<parameter>
+			<name>UseAltClutter</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseAltElevation</name>
+			<value type="boolean">False</value>
+		</parameter>
+		<parameter>
+			<name>UseSingleClutterClass</name>
+			<value type="boolean">True</value>
+		</parameter>
+	</parameters>
+	<clutters>
+		<defaultclutter>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Dry ground</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</defaultclutter>
+		<clutter>
+			<name>Airport</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Dry ground</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>CityCenter</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Core urban</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>CommercialIndustrial</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Industrial</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Forest</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Forest</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>HDB</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Dense urban</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>LDB</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Residential</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>MDB</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Residential</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Open</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Dry ground</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+		<clutter>
+			<name>Water</name>
+			<parameter>
+				<name>ClutterRxHeightMeters</name>
+				<value type="float">1.5</value>
+			</parameter>
+			<parameter>
+				<name>ClutterLocalPowerLossDB</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>ClutterHeightMeters</name>
+				<value type="float">0</value>
+			</parameter>
+			<parameter>
+				<name>GroundType</name>
+				<value type="string">Fresh water</value>
+			</parameter>
+			<parameter>
+				<name>ClutterSeparationMeters</name>
+				<value type="float">20</value>
+			</parameter>
+		</clutter>
+	</clutters>
+</model>

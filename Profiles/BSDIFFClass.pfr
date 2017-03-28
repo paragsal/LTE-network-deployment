@@ -1,0 +1,39 @@
+[Info]
+Version=1.0
+Classes=7
+Interval=Non-Linear
+[Value #1]
+Lower=-1
+Upper=0
+Value=Below Level
+Colour=16384
+[Value #2]
+Lower=0
+Upper=5
+Value=New 7
+Colour=16711680
+[Value #3]
+Lower=5
+Upper=10
+Value=Very Good
+Colour=33023
+[Value #4]
+Lower=10
+Upper=20
+Value=Good
+Colour=4259584
+[Value #5]
+Lower=30
+Upper=40
+Value=Marginal
+Colour=65535
+[Value #6]
+Lower=50
+Upper=60
+Value=No Good
+Colour=255
+[Value #7]
+Lower=60
+Upper=100
+Value=Above Range
+Colour=255

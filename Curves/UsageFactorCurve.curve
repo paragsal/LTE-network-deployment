@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphLine xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://mentum.com/planetservice/v1">
+  <Version>1</Version>
+  <XUnits>None</XUnits>
+  <YUnits>None</YUnits>
+  <XAxisTitle>Milli Erlang per square km</XAxisTitle>
+  <YAxisTitle>Usage Factor</YAxisTitle>
+  <Points>
+    <PointOfdouble>
+      <X>0</X>
+      <Y>0</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>25</X>
+      <Y>0.01</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>50</X>
+      <Y>0.08</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>75</X>
+      <Y>0.17</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>100</X>
+      <Y>0.33</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>125</X>
+      <Y>0.51</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>150</X>
+      <Y>0.69</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>175</X>
+      <Y>0.82</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>200</X>
+      <Y>0.9</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>225</X>
+      <Y>0.96</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>250</X>
+      <Y>1</Y>
+    </PointOfdouble>
+  </Points>
+</GraphLine>

@@ -1,0 +1,7 @@
+[Info]
+Version=5.0
+Type=General
+Classes=1
+[Value 1]
+Desc=Classes for Best Server Signal Strength Classes
+File=BSClass.pfr

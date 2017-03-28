@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AntennaAlgorithm xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="AntennaAlgorithms">
+  <AntennaAlgorithmVersion>1.30</AntennaAlgorithmVersion>
+  <DownlinkSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>_default</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains i:nil="true" />
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+  </DownlinkSettings>
+  <Name>Smart Antenna</Name>
+  <Standard>WiMAX</Standard>
+  <UplinkCollaborativeMimo>false</UplinkCollaborativeMimo>
+  <UplinkSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+      <d2p1:Key>_default</d2p1:Key>
+      <d2p1:Value>
+        <MimoGains i:nil="true" />
+        <SmartAntenna>
+          <SmartAntennaAlgorithm i:type="ConstantGainSmartAntennaAlgorithm">
+            <ClutterCorrection>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ClutterCorrectionDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ClutterCorrectionDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Clutter_x0020_Type" type="xs:string" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028__x0025__x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ClutterCorrectionDataTable" />
+                    <xs:field xpath="Clutter_x0020_Type" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </ClutterCorrection>
+            <ClutterTableInitialized>false</ClutterTableInitialized>
+            <Gains>
+              <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ConstantGainsDataTable" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                      <xs:element name="ConstantGainsDataTable">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Number_x0020_of_x0020_Antenna_x0020_Elements" type="xs:int" />
+                            <xs:element name="Beamforming_x0020_Gain_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                            <xs:element name="Interference_x0020_Rejection_x0020_Factor_x0020__x0028_dB_x0029_" type="xs:float" default="0" minOccurs="0" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:complexType>
+                  <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+                    <xs:selector xpath=".//ConstantGainsDataTable" />
+                    <xs:field xpath="Number_x0020_of_x0020_Antenna_x0020_Elements" />
+                  </xs:unique>
+                </xs:element>
+              </xs:schema>
+              <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+            </Gains>
+          </SmartAntennaAlgorithm>
+        </SmartAntenna>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringAntennaAlgorithmSettingsJaxNtfy4>
+  </UplinkSettings>
+</AntennaAlgorithm>

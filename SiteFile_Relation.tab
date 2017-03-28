@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 6
+    Type Char (40) ;
+    SiteName Char (40) ;
+    Technology Char (40) ;
+    SectorName Char (40) ;
+    RepeaterName Char (40) ;
+    UId Char (40) ;

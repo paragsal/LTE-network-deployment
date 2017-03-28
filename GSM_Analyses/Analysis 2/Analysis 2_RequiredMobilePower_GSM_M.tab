@@ -1,0 +1,20 @@
+!table
+!Version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "Analysis 2_RequiredMobilePower_GSM_M.grd"
+  Type "RASTER"
+  (295725,4338915) (0,0) Label "Pt 1",
+  (352995,4279485) (1909,1981) Label "Pt 2",
+  (295725,4279485) (0,1981) Label "Pt 3"
+  Coordsys Earth Projection 8,74,"m",-75,0,0.9996,500000,0
+UNITS "m"
+RasterStyle 4 1
+RasterStyle 5 215
+ReadOnly
+begin_metadata
+"\Vm\Grid" = "Numeric"
+"\IsReadOnly" = "FALSE"
+"\GridHeight" = "model"
+end_metadata

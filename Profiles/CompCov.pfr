@@ -1,0 +1,24 @@
+[Info]
+Version=1.0
+Classes=4
+Interval=Non-Linear
+[Value #1]
+Lower=-100
+Upper=-90 
+Value=Downlink and uplink
+Colour=32767
+[Value #2]
+Lower=-90
+Upper=-80
+Value=Downlink only
+Colour=65535
+[Value #3]
+Lower=-80
+Upper=-70
+Value=Uplink only
+Colour=16776960
+[Value #4]
+Lower=-70
+Upper=-60
+Value=No coverage
+Colour=16711680

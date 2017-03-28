@@ -1,0 +1,36 @@
+[Range]
+Orientation vertical=1
+Orientation horizontal=0
+
+[Text]
+Title=Seattle Legend
+SubTitle=
+Additionnal=Units: Meters
+Title Format=Font ("Arial",289,18,0,16777215)
+SubTitle Format=Font ("Arial",0,9,0)
+Additionnal Format=Font ("Arial",0,9,0)
+range colour=Font ("Arial",289,10,0,16777215)
+Percentile=Font ("Arial",289,10,65535,255)
+Scale=Font ("Arial",0,9,0)
+Position range colour=Right
+Position Percentile=Left
+Position Scale=Left
+Width range colour=2
+Width Percentile=4
+Width Scale=5
+Rotation range colour=0
+Rotation Percentile=0
+Rotation Scale=0
+
+[Format]
+Style range Tick=Pen (1, 2, 0)
+Style Percentile Tick=Pen (1, 2, 0)
+Style Scale Tick=Pen (1, 2, 0)
+Length range Tick=1
+Length Percentile Tick=1
+Length Scale Tick=1
+Legend Border=0
+Colour Gradient Border=0
+Unit=1
+Box Size Height=0.5
+Box Size Width=1

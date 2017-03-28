@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphLine xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://mentum.com/planetservice/v1">
+  <Version>1</Version>
+  <XUnits>Decibels</XUnits>
+  <YUnits>Percent</YUnits>
+  <XAxisTitle>Ec/Nt of Pilot Channel</XAxisTitle>
+  <YAxisTitle>PER of Data Channel</YAxisTitle>
+  <Points>
+    <PointOfdouble>
+      <X>-21.9</X>
+      <Y>10</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>-21.3</X>
+      <Y>4</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>-20.6</X>
+      <Y>1</Y>
+    </PointOfdouble>
+    <PointOfdouble>
+      <X>-19.95</X>
+      <Y>0.5</Y>
+    </PointOfdouble>
+  </Points>
+</GraphLine>
